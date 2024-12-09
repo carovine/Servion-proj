@@ -1,0 +1,267 @@
+/* *{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#ucaas{
+  background: #E5E3D4;
+  width: 100%;
+  min-height: 100vh;
+}
+#ucaas h2{
+  text-align: center;
+}
+#ucaas .heading{
+  display: flex;
+  padding: 50px 100px 25px 150px;
+  gap: 100px;
+  justify-content: center;
+
+}
+#ucaas .item{
+  padding: 25px 100px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+#ucaas .item h4{
+  padding: 6px 25px 6px 25px;
+}
+#ucaas .name{
+  height: 40px;
+  width: 250px;
+  font-size: 20px;
+  text-align: center;
+  /* padding: 12px 20px; 
+
+}
+#ucaas input{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 0px;
+  border-radius: 3px;
+  outline: none!important;
+}
+
+#ucaas .yesno{
+  height: 40px;
+  width: 50px;
+  
+}
+#ucaas .price{
+  text-align: center;
+  width: 100px;
+  font-size: 20px;
+
+}
+#ucaas .quant{
+  text-align: center;
+  width: 100px;
+  font-size: 20px;
+}
+
+#ucaas .add-item{
+  float: right;
+  margin-right: 25%;
+  background-color: #1C325B;
+  border: 1px solid #1C325B;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#ucaas .add-item:hover{
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  #ucaas .add-item {
+    padding: 10px 30px;
+  }
+}
+
+hr {
+  clear: both;
+  height:5px;
+  margin: 20px 0 !important; /* Overrides the universal reset 
+  background-color: #1C325B;
+  
+}
+
+#ucaas h3{
+  float: right;
+  margin-right: 20%;
+  margin-top: 4vh;
+} */
+
+
+#ucaas{
+  background: #E5E3D4;
+  width: 100%;
+  min-height: 100vh;
+}
+#ucaas h2{
+  text-align: center;
+}
+#ucaas .heading{
+  display: flex;
+  padding: 50px 100px 25px 150px;
+  gap: 100px;
+  justify-content: center;
+
+}
+#ucaas .item{
+  padding: 25px 100px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+#ucaas .item h4{
+  padding: 6px 25px 6px 25px;
+}
+#ucaas .name{
+  height: 40px;
+  width: 250px;
+  font-size: 20px;
+  text-align: center;
+  /* padding: 12px 20px; */
+
+}
+#ucaas input{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 0px;
+  border-radius: 3px;
+  outline: none!important;
+}
+
+#ucaas .yesno{
+  height: 40px;
+  width: 50px;
+  
+}
+#ucaas .price{
+  text-align: center;
+  width: 100px;
+  font-size: 20px;
+
+}
+#ucaas .quant{
+  text-align: center;
+  width: 100px;
+  font-size: 20px;
+}
+
+#ucaas .add-item{
+  float: right;
+  margin-right: 25%;
+  background-color: #1C325B;
+  border: 1px solid #1C325B;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#ucaas .add-item:hover{
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+@media (max-width: 768px) {
+  /* Center align all headings and labels */
+  #ucaas {
+    text-align: center;
+    padding: 10px;
+  }
+
+  #ucaas .heading {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    gap: 10px;
+  }
+
+  #ucaas .item {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+
+  /* Ensure input fields are consistent in size */
+  #ucaas input,
+  #ucaas .name,
+  #ucaas .quant,
+  #ucaas .price,
+  #ucaas .yesno {
+    width: 90%;
+    padding: 5px;
+    font-size: 1rem;
+  }
+
+  #ucaas h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  #ucaas .add-item {
+    margin: 20px auto;
+    display: block;
+    width: 90%;
+    text-align: center;
+  }
+
+  #ucaas h3 {
+    margin-top: 20px;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Stack labels and inputs vertically for smaller screens */
+  #ucaas .heading {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  #ucaas .item {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  #ucaas input {
+    width: 100%;
+  }
+
+  #ucaas h3 {
+    font-size: 0.9rem;
+  }
+}

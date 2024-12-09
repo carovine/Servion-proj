@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <section id="ucaas">
+    <h2>UCaaS</h2>
+    <div class="heading">
+      <label for="item-name">Item Name</label>
+      <label for="yesnolabel">Yes/No</label>
+      <label for="quantlabel">Quantity</label>
+      <label for="pricelabel">Price</label>
+      <label for="costlabel">Cost</label>
+    </div>
+    <div>
+      <div class="item" id="item0">
+        <input class="name" id="name" type="text">
+        <input class="yesno" id="yesno" type="checkbox">
+        <input class="quant" id="quant" type="number">
+        <input class="price" id="price" type="number">
+        <h4>Rs. <span class="cost" id="cost">0.00</span></h4>
+      </div>
+    </div>
+    
+    <button class="add-item" id="add-item"> Add item</button>
+
+    <hr>
+
+    <h3 >Total: Rs.<span class="total">0.00</span></h3>
+  </section>
+  <script src="script.js"></script>
+
+</body>
+</html>
